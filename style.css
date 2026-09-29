@@ -1,0 +1,94 @@
+@import url('https://fontshare.com[]=satoshi@300,400,500,700,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.custom-width-100 {
+    display: block;
+    width: 100%;
+}
+
+.container-top {
+    height: 1000px;
+    background-image: url("./images/Hero_Frame.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.font-size-100 {
+    font-size: 68px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    max-width: 435px;
+}
+
+.search-box {
+    position: relative;
+    flex: 1;
+}
+
+.search-icon {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8b939f;
+    font-size: 15px;
+    z-index: 2;
+}
+
+.search-input {
+    height: 39px;
+    border: none;
+    border-radius: 25px;
+    padding-left: 43px;
+    padding-right: 20px;
+    font-size: 13px;
+    box-shadow: none;
+}
+
+.search-input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-design-1 {
+    height: 39px;
+    padding: 0 20px;
+    border-radius: 25px;
+    background-color: #c8ff00;
+    color: #000;
+    border: none;
+    font-size: 13px;
+}
+
+.btn-design-1:hover {
+    background-color: #b8ed00;
+}
+
+.logos-background {
+    background-color: #F5F5F6
+}
+
+.btn-design-2 {
+    height: 39px;
+    padding: 0 20px;
+    border-radius: 25px;
+    background-color: #E5E5E7;
+    color: #000;
+    border: none;
+    font-size: 13px;
+}
+
+.btn-design-2:hover {
+    background-color: #8b939f;
+}
