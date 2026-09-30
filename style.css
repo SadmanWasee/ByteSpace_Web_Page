@@ -233,3 +233,9 @@ body {
   background-size: cover;
   height: 490px;
 }
+
+.clients-opinion-contianer{
+  background-image: url(./images/Testimonials_Frame.png);
+  background-size: cover;
+  height: 790px;
+}
