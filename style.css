@@ -235,15 +235,31 @@ body {
 .canvas-2{
   background-image: url(./images/CTA_Frame_2.png);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 490px;
 }
 
 .clients-opinion-contianer{
   background-image: url(./images/Testimonials_Frame.png);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 790px;
 }
 
 .footer-container {
   height: 400px;
+}
+
+/*#region register */
+
+.register-container {
+  background-image: url(./images/Register-Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.register-decoration-image {
+  height: 500px;
 }
