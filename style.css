@@ -22,6 +22,10 @@ body {
   font-size: 68px;
 }
 
+.font-size-10 {
+  font-size: 10px;
+}
+
 .search-container {
   display: flex;
   align-items: center;
@@ -238,4 +242,8 @@ body {
   background-image: url(./images/Testimonials_Frame.png);
   background-size: cover;
   height: 790px;
+}
+
+.footer-container {
+  height: 400px;
 }
